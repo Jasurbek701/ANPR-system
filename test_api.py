@@ -5,7 +5,7 @@ import datetime
 import os
 
 # 1. SETUP
-API_URL = "http://localhost:8000/detect"
+API_URL = ""
 # Use 'r' before the string to handle backslashes correctly in Windows paths
 IMAGE_PATH = r"C:\main\VScode\P4_anpr_project\P4_ANPR_final\images\photo_2026-01-12_15-50-14.jpg" 
 
@@ -63,3 +63,4 @@ except FileNotFoundError:
     print(f" Could not find image file: {IMAGE_PATH}")
 except Exception as e:
     print(f" Connection failed: {e}")
+
